@@ -86,7 +86,7 @@ $ rake jobs:work
 Resque
 ------
 
-Resque uses Redis, an in-memory key value store, instead of ActiveRecord for its queue. Installing the Resque gem should install the recommended version of Redis as well.
+Resque uses Redis, an in-memory key value store, instead of ActiveRecord for its queue. Installing the [Resque gem][resque] should install the recommended version of Redis as well.
 
 {% highlight bash %}
 $ gem install resque
@@ -110,9 +110,9 @@ Resque.enqueue(MyWorker, something.foo, something_else.bar)
 Just remember to run a rake task for each of your queues. This starts up a single worker for each of your queues and work through the jobs in them.
 
 {% highlight bash %}
-$ QUEUE=name_of_que rake resque:work 
+$ QUEUE=name_of_queue rake resque:work 
 or
-$ COUNT=5 QUEUE=name_of_que rake resque:workers
+$ COUNT=5 QUEUE=name_of_queue rake resque:workers
 {% endhighlight %}
 
 One cool feature is Resque's web monitoring tool which allows you to keep tabs on your Resque workers. This can be started up in development using the below command which starts up the Sinatra based app.
@@ -123,7 +123,7 @@ $ resque-web
 Sidekiq
 -------
 
-Sidekiq is similar to Resque in that it also uses Redis for the job queue, and you set it up by making your workers in something like app/workers/my_worker.rb as you can see below.
+[Sidekiq][sidekiq] is similar to Resque in that it also uses Redis for the job queue, and you set it up by making your workers in something like app/workers/my_worker.rb as you can see below.
 {% highlight ruby %}
 class MyWorker
   include Sidekiq::Worker
@@ -150,32 +150,45 @@ Sidekiq's main difference is that it uses Ruby multithreading to make it more me
 What Should I Use?
 ------------------
 
-###Delayed Job
+### Delayed Job
 Good:
-+ Very Quick and Easy
-+ No need for creating additional worker/job folders and files
-+ No need to use Redis
+<ul>
+<li>Very Quick and Easy</li>
+<li>No need for creating additional worker/job folders and files</li>
+<li>No need to use Redis</li>
+</ul>
 Bad:
--Usage of ActiveRecord for queue means a you take a performance hit
--No fancy web dashboard
+<ul>
+<li>Usage of ActiveRecord for queue means a you take a performance hit</li>
+<li>No fancy web dashboard</li>
+</ul>
 
 ###Resque
 Good:
--More performative due to Redis instead of ActiveRecord
--Nice web dashboard for monitoring processes
+<ul>
+<li>More performative due to Redis instead of ActiveRecord</li>
+<li>Nice web dashboard for monitoring processes</li>
+</ul>
 Bad:
--More setup to worry about
+<ul>
+<li>More setup to worry about</li>
+</ul>
 
 ###Sidekiq
 Good:
--Can be very fast and memory efficient when using multithreaded Ruby
--Has a dashboard
--Can use it in combination with Resque as it uses the same architecture
+<ul>
+<li>Can be very fast and memory efficient when using multithreaded Ruby</li>
+<li>Has a dashboard</li>
+<li>Can use it in combination with Resque as it uses the same architecture</li>
+</ul>
 Bad:
--Need to be concerned with threadsafety of code and libraries
--More setup and configuration than DelayedJob
-
+<ul>
+<li>Need to be concerned with threadsafety of code and libraries</li>
+<li>More setup and configuration than DelayedJob</li>
+</ul>
 
 
 
 [delayed-job]: https://github.com/collectiveidea/delayed_job
+[resque]: https://github.com/resque/resque/tree/1-x-stable
+[sidekiq]: https://github.com/mperham/sidekiq

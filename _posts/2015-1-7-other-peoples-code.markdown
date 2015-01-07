@@ -5,7 +5,7 @@ date:   2015-1-7
 categories: ruby
 ---
 
-I;m working on a project using [jcs/lobsters](https://github.com/jcs/lobsters), a nice github clone. This is the first time I've ever forked a project and dug into somebody else's codebase. I was a little apprehensive about having to read and understand a bunch of code and was tempted to build something from scratch to avoid it. I'm glad I didn't because it's proving to be an excellent chance to learn some new stuff.
+I;m working on a project using [jcs/lobsters](https://github.com/jcs/lobsters), a nice Hacker News clone. This is the first time I've ever forked a project and dug into somebody else's codebase. I was a little apprehensive about having to read and understand a bunch of code and was tempted to build something from scratch to avoid it. I'm glad I didn't because it's proving to be an excellent chance to learn some new stuff.
 
 For example, today while I was going through my app's views, hunting down strings to add to my i18n YAML file, I can across this:
 

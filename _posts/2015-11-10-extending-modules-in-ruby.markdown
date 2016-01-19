@@ -30,7 +30,7 @@ end
 ModuleName.foo
 {% endhighlight %}
 
-The problem I ran into is that although there is are a lot of standard states across the different models, sometimes they don't always have the same states so the logic for determining 'lateness' is different in some cases.
+The problem I ran into is that although there are a lot of standard states across the different models, sometimes they don't always have the same states so the logic for determining 'lateness' is different in some cases.
 
 Since there was only one model that needed to be handled differently, I decided to add code which would check the class for cases that needed to be handled differently.
 

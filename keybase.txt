@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rossg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.prettymuchallofthetime.com
+  * I am rossg (https://keybase.io/rossg) on keybase.
+  * I have a public key with fingerprint 83C0 5D9A 1602 D367 D159  CD51 6148 8DCA F5F2 29DA
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d2131912ed17035d44ab717161bc05ab3980421c8795c8c808a4cd0c0ce829d30a",
+            "fingerprint": "83c05d9a1602d367d159cd5161488dcaf5f229da",
+            "host": "keybase.io",
+            "key_id": "61488dcaf5f229da",
+            "kid": "0101d2131912ed17035d44ab717161bc05ab3980421c8795c8c808a4cd0c0ce829d30a",
+            "uid": "205ee6a63c73e49c4e62ccd2c4a3bc19",
+            "username": "rossg"
+        },
+        "service": {
+            "hostname": "blog.prettymuchallofthetime.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1454667280,
+    "expire_in": 157680000,
+    "prev": "f844141f348f41fec79035d56b6a31eb6b69d11189a04fbb087c1c3b7fdb29ca",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMI2AnicrZJbSBRRGMd3S82WDCE0i4gcpHrYljlzn0UyHwpMjUqzwGqdOefMztTu
+zjYzaqtoJlEUlBBopqVBlEEXH7KLGdEVkm6EUVBppCnS5SEsIkLqjNhbj52X75zv
+/P+/852P737aTI/Pe707Kf/FlZsrvY/unK30lPVUpddSqokSVLCW2omnAo4gbDuh
+nQaighQNaIAYwAIZMBgBkWZ5xHGKKgIRCECFNK+orCzRHAOgJMo8lKBESwoHEQ1p
+iCVGRiytUH5KM2JhbMUtI+YQrMQSJ5IVINAMYgURAV6GiCdITpIQVDReY4jVNeqm
+7TpIcapi44Bhkhw5hKbK+4f+P9ddOYVjaB5jQRFYKLKYkyGHBQZCxEBOYVUIZFdo
+YyumRDFRW6Zth6k6P0VSVQbEblfdb0xfqxEzHIhb2HES0UqoK5GIqTk6dowoDkAz
+Slhxy3RMaEaIWHeceNBlOYm4a67GamgaG1KNGCJtJYYqbNmGGaOCgCihSyJbjucE
+QWQk2k/h3XHDwiHDVfCiINFkuc/gKoLUJI4DHNBYTtJIwFCU3XbxgiooLMAqiTIC
+AEiyQnOaqtKSCAFkVVFDKiNDt0s23hUzqSBPylTCBGkb4ZjiVFqYqrt7e2uSx+vz
+pCTPcMfN45ud/ncIS3+lepr7Ox83vR3JLI+lHU+9unqsbri0/oGvYFdNcmjsXeZQ
+X2H+q65Lhfcs/tjg1+XfFpdxsw4uYRZWwBebUh5O9rT3Zk34Tgev9ZrP12SpmWcO
+dy3dNqdtsD37w96M9z8yooGKA9mvM56k6SdGr+Cc1BbzFFsy/LI49+fg5VnGZF9y
+Q+v8rsbHIw0lnUNH92Tpb7QLy7rvLqpf4M/TN7RVB5XfR3oyW7z3336Z6H05oCcV
+hCf1iv3rQE48MNjR/zlRXjSzeffAeP+q796T+4q7ntbkjWaM79g+71qiqa9lQvp4
+DqVvrPAPbW5tupjzqWjgUO6WufHr5x89G0G3GjturPCsX7v1D61LRkw=
+=eZ22
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rossg
+
+==================================================================

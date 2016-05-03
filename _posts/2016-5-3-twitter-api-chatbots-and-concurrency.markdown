@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Twitter API, Motivational Chatbots, and Concurrency"
-date:   2016-1-18
-categories: "intercom, ruby, mistakes"
+date:   2016-5-2
+categories: "concurrency, twitter-api, chatbots"
 ---
 
 This post is really just notes on the beginning of a little project I decided to work on. Recently I've been having trouble getting motivated to do any non-work projects so I decided to try using a goal tracking app in an attempt to be more productive. In the past, I've tried setting daily or weekly calendar events to remind me to work on things I want to get done, but it's rarely been successful. I looked around at a few options and most of the apps didn't really provide any significantly different features than a calendar. They allow you to set a goal, then check in at predetermined intervals to see if you are following through. The problem with both is that, aside from the intrinsic benefit of accomplishing your goal, there's really no positive benefit to ticking off boxes on a calendar. Likewise, there's no negative feedback that happens when you ignore the daily prompt.
